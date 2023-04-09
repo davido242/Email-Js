@@ -1,1 +1,1 @@
-alert("Please drop us a message fam!!");
+// alert("Please drop us a message fam!!");
