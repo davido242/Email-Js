@@ -9,16 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Get in touch</h3>
             <input type="text" placeholder="name" id="name" required />
             <input type="email" placeholder="Email here" id="email" required />
             <input type="text" placeholder="Phone number here.." id="phone" required />
             <textarea id="message" rows="4" placeholder="How can David MD help you please?...."></textarea>
-            <button type="submit" >Send</button>
+            <button type="submit">Send</button>
         </form>
     </div> 
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
