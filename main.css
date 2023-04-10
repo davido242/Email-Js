@@ -48,3 +48,12 @@ form button {
 	margin: 20px auto 0;
 	border-radius: 30px;
 }
+
+.rightcopy {
+	font-size: 20px;
+	font-weight: 800;
+	color: #000;
+	display: block;
+	text-align: center;
+	margin: 2rem 0;
+}
